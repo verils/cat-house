@@ -1,4 +1,4 @@
-import { TILE_SIZE, MAP_COLS, MAP_ROWS, FloorType } from '../game/types';
+import { TILE_SIZE, MAP_COLS, MAP_ROWS, FloorType } from '../game';
 import type { House, Shelter, CatBed, Furniture, Room, Toy } from '../game/types';
 import { TileMap } from '../game/tile-map';
 import { TileType } from '../game/types';
