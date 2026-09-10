@@ -23,10 +23,6 @@ export const MAP_HEIGHT = MAP_ROWS * TILE_SIZE; // 1280px
 export const CAT_VISUAL_SIZE = CAT_SIZE * PIXELS_PER_METER; // 32px
 export const CAT_COLLISION_RADIUS = (CAT_SIZE / 2) * PIXELS_PER_METER; // 16px
 
-// 坐标转换辅助
-export const metersToPixels = (m: number): number => m * PIXELS_PER_METER;
-export const pixelsToMeters = (px: number): number => px / PIXELS_PER_METER;
-
 // 地板纹理类型
 export enum FloorType {
   WOOD = 'wood', // 木地板
